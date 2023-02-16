@@ -1,6 +1,7 @@
 import random
 movie_list = ["3idiots","Pathan","Baahubali","Dangal","KGF"]
 movie = movie_list[random.randint(0,len(movie_list)-1)]
+movie=movie.lower()
 
 l1 = []
 for i in (movie):
@@ -22,6 +23,7 @@ while True:
   print()
 
   option = input("Enter your guess ")
+  option = option.lower()
   if option == 0:
     print("Invalid")
     break
