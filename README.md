@@ -13,3 +13,6 @@ Link --> https://github.com/sakib927/Intresting_Programs/blob/main/movie_guesser
 
 4) This is same a the above movie guesser but a multiplayer verison. 
 Link --> https://github.com/sakib927/Intresting_Programs/blob/main/multiplayer_movie_guesser.py
+
+5) This program is classical rock paper scissors. It is a computer vs user.
+Link --> https://github.com/sakib927/Intresting_Programs/blob/main/rockpaperscissors.py
