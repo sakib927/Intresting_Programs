@@ -2,6 +2,7 @@ def cafeteria():
   print("Welcome To Aamir Dhaba")
   print()
   print("Here is the menu")
+  menu = {"FriedRice":130,"Dhosa":100,"JeraRice":70,"Dal":60,"SoftDrink":50}
   for i,j in menu.items():
     print(i,"and its price",j)
   print()
