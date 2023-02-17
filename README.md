@@ -16,3 +16,6 @@ Link --> https://github.com/sakib927/Intresting_Programs/blob/main/multiplayer_m
 
 5) This program is classical rock paper scissors. It is a computer vs user.
 Link --> https://github.com/sakib927/Intresting_Programs/blob/main/rockpaperscissors.py
+
+6) This program is for ordering, editing the order and generation of invoice.
+Link --> https://github.com/sakib927/Intresting_Programs/blob/main/cafeteria.py
