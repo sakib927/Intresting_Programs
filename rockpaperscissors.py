@@ -1,3 +1,4 @@
+import random 
 computerl = ["rock","paper","scissors"]
 computer_choice = computerl[random.randint(0,len(computerl)-1)]
 computer_choice
