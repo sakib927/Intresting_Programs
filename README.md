@@ -29,3 +29,6 @@ Link --> https://github.com/sakib927/Intresting_Programs/blob/main/tictactoe.py
 9) Game zome in which each user enters into game zone with 500 points. He can play games or buy snacks from cafe available in
 restaurant. It consists of compilation of all the games which were made above. For Movie guess, snake and ladder, tic tac toe and rock paper scissor if player wins he will get bonus point(20 points). FLAMES is just for entertainment so no bonus points. Each game costs 30 points. Player can play until it has balance in his wallet. Restaurant has its own menu which charges in terms of points.
 Link --> https://github.com/sakib927/Intresting_Programs/blob/main/gamezone.py
+
+10) Login verification, validation and database entry.Must see once.
+link -->https://github.com/sakib927/Intresting_Programs/blob/main/registration.py
