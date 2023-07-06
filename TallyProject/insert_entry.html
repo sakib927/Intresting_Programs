@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Index Entry</title>
+</head>
+<body>
+  <h1>Index Entry</h1>
+  <form action="{{ url_for('insert_entry_route') }}" method="post">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <label for="particulars">Particulars:</label>
+    <input type="text" id="particulars" name="particulars" required><br><br>
+    
+    <label for="vchtype">Voucher Type:</label>
+    <input type="text" id="vchtype" name="vchtype" required><br><br>
+    
+    <label for="vhno">Voucher No:</label>
+    <input type="text" id="vhno" name="vhno" required><br><br>
+    
+    <label for="debit_amount">Debit Amount:</label>
+    <input type="number" id="debit_amount" name="debit_amount"><br><br>
+    
+    <label for="credit_amount">Credit Amount:</label>
+    <input type="number" id="credit_amount" name="credit_amount"><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

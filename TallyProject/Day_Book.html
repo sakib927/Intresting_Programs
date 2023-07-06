@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tally Entries</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons button {
+      margin-right: 10px;
+    }
+
+    .summary-table {
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function refreshPage() {
+      location.reload();
+    }
+  </script>
+</head>
+<body>
+  <h1>Tally Entries</h1>
+
+  <div class="buttons">
+    <button onclick="location.href='/insert_entry';">Insert Entry</button>
+    <button onclick="location.href='/delete_entry';">Delete Entry</button>
+  </div>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Entry ID</th>
+        <th>Date</th>
+        <th>Particulars</th>
+        <th>Voucher Type</th>
+        <th>Voucher No</th>
+        <th>Debit Amount</th>
+        <th>Credit Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in entries %}
+      <tr>
+        <td>{{ entry.entry_id }}</td>
+        <td>{{ entry.date }}</td>
+        <td>{{ entry.particulars }}</td>
+        <td>{{ entry.vchtype }}</td>
+        <td>{{ entry.vhno }}</td>
+        <td>{{ entry.debit_amount }}</td>
+        <td>{{ entry.credit_amount }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  
+  <table class="summary-table">
+    <thead>
+      <tr>
+        <th>Total Revenue</th>
+        <th>Total Debit</th>
+        <th>Total Credit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ total_revenue }}</td>
+        <td>{{ total_debit }}</td>
+        <td>{{ total_credit }}</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
