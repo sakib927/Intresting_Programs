@@ -35,3 +35,9 @@ link -->https://github.com/sakib927/Intresting_Programs/blob/main/registration.p
 
 11) This program is for tracking bitcoin on the real time baises.
 link --> https://github.com/sakib927/Intresting_Programs/blob/main/Bitcoin_Tracker.ipynb
+
+12) This folder contains codes for automatic attandance which by the help of AI and Ml with qr codes
+link --> https://github.com/sakib927/Intresting_Programs/tree/main/Attendance%20Project
+
+13) This folder contains codes for a simple tally program which was created using sqlite and python and is using on flask app
+link --> https://github.com/sakib927/Intresting_Programs/tree/main/TallyProject
